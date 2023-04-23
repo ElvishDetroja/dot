@@ -7,14 +7,18 @@
     font-family: poppins;
 }
 
+:root {
+    font-size: 62.5%;
+}
+
 .header {
+    width: 100%;
+    min-height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 15vh;
-    width: 100%;
     background-color: navy;
-    padding: 20px;
+    padding: 2rem;
 }
 
 .img-type,
@@ -27,10 +31,10 @@
 .jpg,
 .png,
 .edit {
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     background-color: white;
     color: navy;
-    margin: 0 20px;
+    margin: 0 2rem;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -38,10 +42,10 @@
 
 .eye,
 .full {
-    font-size: 30px;
-    padding: 20px;
+    font-size: 3rem;
+    padding: 2rem;
     color: white;
-    margin: 0 10px;
+    margin: 0 1rem;
     cursor: pointer;
 }
 
@@ -54,19 +58,19 @@
     width: 30%;
     height: 85vh;
     background-color: rgb(235, 235, 235);
-    padding: 50px;
-    font-size: 25px;
+    padding: 5rem;
+    font-size: 2.5rem;
 }
 
 .output {
     width: 70%;
-    padding: 50px;
+    padding: 5rem;
 }
 
 .output table {
     border-collapse: collapse;
     background-color: white;
-    padding: 20px;
+    padding: 2rem;
 }
 
 
@@ -102,7 +106,7 @@
     align-items: center;
 }
 
-.img-section-close{
+.img-section-close {
     width: 60px;
     height: 60px;
     background-color: white;
@@ -116,4 +120,43 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width : 1200px) {
+    :root {
+        font-size: 54.69%;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    :root {
+        font-size: 46.88%;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    :root {
+        font-size: 39.06%;
+    }
+
+}
+
+
+@media screen and (max-width : 500px) {
+
+    .header{
+       flex-direction: column;
+    }
+}
+
+
+
+@media screen and (min-width : 2000px) {
+    :root {
+        font-size: 101.57%;
+    }
 }
