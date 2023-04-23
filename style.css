@@ -32,9 +32,10 @@
 .png,
 .edit {
     padding: 1rem 2rem;
+    font-size: 1.6rem;
     background-color: white;
     color: navy;
-    margin: 0 2rem;
+    margin: 1rem 2rem;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -43,9 +44,8 @@
 .eye,
 .full {
     font-size: 3rem;
-    padding: 2rem;
     color: white;
-    margin: 0 1rem;
+    margin: 1rem 2rem;
     cursor: pointer;
 }
 
